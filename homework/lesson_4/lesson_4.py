@@ -48,6 +48,7 @@ original_string = 'Python very good'
 print(original_string[0:3])
 print(original_string[-3:])
 print(original_string[::2])
+print(original_string[::-1])
 
 # ЗАДАНИЕ 9: Экранирование символов
 print("Он сказал: \"Привет\"")
