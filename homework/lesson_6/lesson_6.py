@@ -9,11 +9,11 @@ for value in student_info.values():
 
 # ЗАДАНИЕ 2: Удаление элементов и генератор словарей
 prices = {"яблоко": 50, "банан": 30, "апельсин": 40, "груша": 35, "виноград": 60}
+original_prices = prices.copy()  # Сохранил состояние для последующего использования для словаря со скидками
 del prices["груша"]
 removed_value = prices.pop("виноград")
 
 # Новый словарь с теми же фруктами, но с ценами со скидкой 10%
-original_prices = {"яблоко": 50, "банан": 30, "апельсин": 40, "груша": 35, "виноград": 60}
 discount_prices = {fruit: price * 0.9 for fruit, price in original_prices.items()}
 print(discount_prices)
 
