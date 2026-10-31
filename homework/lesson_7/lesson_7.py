@@ -7,6 +7,7 @@ fruits.discard("банан")
 fruits.discard("киви")
 # fruits.remove("киви")
 popped = fruits.pop()
+print(fruits)
 print(popped)
 
 # ЗАДАНИЕ 2: Работа с кортежами
